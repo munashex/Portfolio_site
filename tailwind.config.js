@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
@@ -8,6 +7,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Nunito', '"Nunito Placeholder"', 'sans-serif'],
+        'shantell': ['"Shantell Sans"', 'cursive'],
       },
     },
   },
