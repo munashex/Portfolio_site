@@ -1,10 +1,18 @@
+import Navbar from "./components/Navbar"  
+import Home from './pages/Home' 
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 const App = () => {
 
   return (
-    <div> 
-      <h1 className="text-red-700">munashe</h1>
-      </div>
+    <div className="mx-2 md:mx-5 lg:mx-16">
+     <Router> 
+      <Navbar/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+      </Routes>
+     </Router>
+    </div>
   )
 }
 
