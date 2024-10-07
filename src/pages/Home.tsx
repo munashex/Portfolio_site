@@ -5,6 +5,8 @@ import { IoLogoLinkedin } from "react-icons/io5";
 import { FaXTwitter } from "react-icons/fa6"; 
 import SelectedWork from "../components/SelectedWork";
 import {works} from '../data/works'
+import AnimatedTestimonials from "../components/animatedTestimonials";
+import Testimonals from "../components/Testimonials";
 
 const Home = () => {
 
@@ -54,6 +56,20 @@ const Home = () => {
               />
              ))}
              </div>
+           </div>
+
+           <div className="mt-11 flex justify-center">
+            <button className="text-lg border-2 rounded-full border-gray-400 p-2 px-6 hover:bg-[#A8516E] hover:border-[#A8516E] hover:text-white transition duration-300 delay-300 ease-in-out">See All Works</button>
+           </div>
+
+           {/* animated testimonials  section on lg screen*/}
+           <div className="mt-28 hidden lg:grid">
+            <AnimatedTestimonials/>
+           </div> 
+
+           {/* regular testimonals on sm & md sceens */} 
+           <div className="mt-20 lg:hidden">
+           <Testimonals/>
            </div>
         </div>
     )

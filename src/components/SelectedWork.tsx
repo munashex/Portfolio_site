@@ -8,8 +8,8 @@ interface WorkProps {
 
 const SelectedWork = ({ work }: { work: WorkProps }) => {
   return (
-    <div className="w-full bg-white border border-gray-200 rounded-lg overflow-hidden">
-      <img src={work.image} alt={work.name} className="w-full object-cover" />
+    <div className="w-full bg-[#EDEDED] border border-gray-200 rounded-lg overflow-hidden">
+      <img src={work.image} alt={work.name} className="w-full mix-blend-luminosity object-cover" />
       <div className="p-6">
         <h3 className="text-2xl font-bold mb-3 text-gray-800">{work.name}</h3>
         <p className="text-gray-600 text-base mb-4">{work.description}</p>
