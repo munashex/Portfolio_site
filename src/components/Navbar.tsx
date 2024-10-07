@@ -7,11 +7,13 @@ import { RiGithubLine } from "react-icons/ri";
 import { IoLogoLinkedin } from "react-icons/io5";
 import { FaXTwitter } from "react-icons/fa6"; 
 import { MdArrowOutward } from "react-icons/md";
+import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
 
 const [openNav, setOpenNav] = useState(false) 
-const toggleNav = () => setOpenNav(!openNav)
+const toggleNav = () => setOpenNav(!openNav) 
+const location = useLocation()
 
 const navlinks = [
     {name: "Work", url: "/work"}, {name: "About", url: "/about"}, 
@@ -38,7 +40,7 @@ const navlinks = [
              {/* navLinks on small & md screens */}
              <div className="mt-11 flex flex-col lg:hidden justify-center items-center gap-3">
             {navlinks.map((link) => (
-                <Link onClick={toggleNav} key={link.name} to={link.url} className="text-[#2b2a2a] text-xl"> 
+                <Link onClick={toggleNav} key={link.name} to={link.url} className={`text-[#2b2a2a]  text-xl ${location.pathname === link.url ? 'font-bold' : ''}`}> 
                  {link.name}
                 </Link>
             ))}
@@ -68,7 +70,7 @@ const navlinks = [
 
             <div className="flex flex-row gap-4">
             {navlinks.map((link) => (
-                <Link  key={link.name} to={link.url} className="text-[#2b2a2a]  text-lg"> 
+                <Link  key={link.name} to={link.url} className={`text-[#2b2a2a]  text-lg ${location.pathname === link.url ? 'font-bold' : ''}`}> 
                  {link.name}
                 </Link>
              ))}
