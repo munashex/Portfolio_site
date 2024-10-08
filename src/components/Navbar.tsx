@@ -17,7 +17,7 @@ const location = useLocation()
 
 const navlinks = [
     {name: "Work", url: "/work"}, {name: "About", url: "/about"}, 
-    {name: "Experience", url: "/experience"}, {name: "Contact", url: "/contact"}
+     {name: "Contact", url: "/contact"}
      ]
 
     return (
