@@ -6,6 +6,8 @@ interface WorkProps {
   description: string;
 }
 
+
+
 const SelectedWork = ({ work }: { work: WorkProps }) => {
   return (
     <div className="w-full bg-[#EDEDED] border border-gray-200 rounded-lg overflow-hidden">

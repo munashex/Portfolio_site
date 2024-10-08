@@ -24,8 +24,8 @@ const Home = () => {
                 <h1 className="text-3xl md:text-4xl lg:text-7xl font-shantell text-center lg:text-start lg:max-w-3xl">I'm Munashe Mugonda. I Code * Create * Innovate.</h1>
                  <h1 className="text-lg text-center lg:text-xl lg:max-w-2xl lg:text-start">Empowering Ideas Through End-to-End Development Expertise and Seamless User Interfaces</h1>
                   <div className="flex flex-row justify-center lg:justify-start gap-4">
-                  <button className="border rounded-xl  border-black py-2 px-4  hover:bg-black hover:text-white transition delay-300 duration-300 ease-in-out">Browse Works</button>
-                  <button className="bg-[#A8516E] rounded-xl font-bold border py-2 px-6 text-white">Resume</button>
+                  <button className="border rounded-xl  border-black py-2 px-4  hover:bg-black hover:text-white scale-100 hover:scale-105 transition animate-ease-linear delay-300 duration-300">Browse Works</button>
+                  <button className="bg-[#A8516E] scale-100 hover:scale-105 transition animate-ease-linear delay-150 duration-200 rounded-xl font-bold border py-2 px-6 text-white">Resume</button>
                   </div>
              </div>
 
