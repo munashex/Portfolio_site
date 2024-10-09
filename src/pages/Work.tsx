@@ -8,7 +8,7 @@ const Work: React.FC = () => {
   const findWorkWithId = works.find((work) => work.name === id);
 
   if (!findWorkWithId) {
-    return <div className="mt-11 lg:mt-16 text-gray-800 text-center">Work not found</div>;
+    return <div className="mt-11 lg:mt-16 text-gray-800 text-center text-3xl h-svh">Work not found</div>;
   }
 
   return (
