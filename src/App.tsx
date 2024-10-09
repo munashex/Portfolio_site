@@ -6,6 +6,7 @@ import Works from './pages/Works'
 import Contact from './pages/Contact'
 import Footer from './components/Footer'
 import Work from "./pages/Work"
+import NotFound from "./pages/NotFound"
 
 const App = () => {
 
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/work" element={<Works/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="work/:id" element={<Work/>}/>
+        <Route path="*" element={<NotFound/>}/>
       </Routes>
       <Footer/>
      </Router>
