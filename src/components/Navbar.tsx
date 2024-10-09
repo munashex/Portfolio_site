@@ -40,7 +40,7 @@ const navlinks = [
              {/* navLinks on small & md screens */}
              <div className="mt-11 flex flex-col lg:hidden justify-center items-center gap-3">
             {navlinks.map((link) => (
-                <Link onClick={toggleNav} key={link.name} to={link.url} className={`text-[#2b2a2a]  text-xl ${location.pathname === link.url ? 'font-bold' : ''}`}> 
+                <Link onClick={toggleNav} key={link.name} to={link.url} className={`text-[#2b2a2a] font-shantell text-xl ${location.pathname === link.url ? 'font-bold' : ''}`}> 
                  {link.name}
                 </Link>
             ))}
@@ -50,10 +50,10 @@ const navlinks = [
             <div className="flex flex-row gap-3 items-center justify-center"> 
               <a href="https://x.com/Munashe8" className="bg-[#D4D4D4] p-2 rounded-full"><FaXTwitter size={22} color="#525252"/></a>
               <a href="https://github.com/munashex" className="bg-[#D4D4D4] p-2 rounded-full"><RiGithubLine size={22} color="#525252"/></a>
-              <a href="https://www.linkedin.com/in/munashe-madhuna-99676a210/" className="bg-[#D4D4D4] p-2 rounded-full"><IoLogoLinkedin size={22} color="#525252"/></a>
+              <a href="https://linkedin.com/in/munashe-madhuna-99676a210" className="bg-[#D4D4D4] p-2 rounded-full"><IoLogoLinkedin size={22} color="#525252"/></a>
             </div> 
 
-            <Link to="/contact" onClick={toggleNav} className="bg-black w-1/2 mx-auto py-2  rounded-lg text-lg gap-2  text-white flex items-center justify-center">
+            <Link to="/contact" onClick={toggleNav} className="bg-black font-shantell w-1/2 mx-auto py-2  rounded-lg text-lg gap-2  text-white flex items-center justify-center">
             Lets Talk  <MdArrowOutward size={22}/>
             </Link>
            </div>
@@ -70,7 +70,7 @@ const navlinks = [
 
             <div className="flex flex-row gap-4">
             {navlinks.map((link) => (
-                <Link  key={link.name} to={link.url} className={`text-[#2b2a2a]  text-lg ${location.pathname === link.url ? 'font-bold' : ''}`}> 
+                <Link  key={link.name} to={link.url} className={`text-[#2b2a2a] font-shantell text-lg ${location.pathname === link.url ? 'font-bold' : ''}`}> 
                  {link.name}
                 </Link>
              ))}
@@ -83,10 +83,10 @@ const navlinks = [
             <div className="flex flex-row gap-3 items-center justify-center"> 
               <a href="https://x.com/Munashe8" className="bg-[#D4D4D4] p-2 rounded-full"><FaXTwitter size={22} color="#525252"/></a>
               <a href="https://github.com/munashex" className="bg-[#D4D4D4] p-2 rounded-full"><RiGithubLine size={22} color="#525252"/></a>
-              <a href="https://www.linkedin.com/in/munashe-madhuna-99676a210/" className="bg-[#D4D4D4] p-2 rounded-full"><IoLogoLinkedin size={22} color="#525252"/></a>
+              <a href="https://linkedin.com/in/munashe-madhuna-99676a210" className="bg-[#D4D4D4] p-2 rounded-full"><IoLogoLinkedin size={22} color="#525252"/></a>
             </div>  
                
-            <Link to="/contact" onClick={toggleNav} className="bg-black px-4 py-2  rounded-lg text-lg gap-2  text-white flex items-center justify-center transition duration-300 delay-300 ease-in-out hover:bg-[#A8516E]">
+            <Link to="/contact" onClick={toggleNav} className="bg-black px-4 py-2 font-shantell rounded-lg text-lg gap-2  text-white flex items-center justify-center transition duration-300 delay-300 ease-in-out hover:bg-[#A8516E]">
             Lets Talk  <MdArrowOutward size={22}/>
             </Link>
              </div>

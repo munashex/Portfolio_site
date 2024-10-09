@@ -2,9 +2,10 @@ import Navbar from "./components/Navbar"
 import Home from './pages/Home' 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import About from './pages/About' 
-import Work from './pages/Work'
+import Works from './pages/Works'
 import Contact from './pages/Contact'
 import Footer from './components/Footer'
+import Work from "./pages/Work"
 
 const App = () => {
 
@@ -15,8 +16,9 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home/>}/> 
         <Route path="/about" element={<About/>}/> 
-        <Route path="/work" element={<Work/>}/>
+        <Route path="/work" element={<Works/>}/>
         <Route path="/contact" element={<Contact/>}/>
+        <Route path="work/:id" element={<Work/>}/>
       </Routes>
       <Footer/>
      </Router>

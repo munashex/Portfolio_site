@@ -23,7 +23,7 @@ const navlinks = [
 
         <div className="space-x-6">
         {navlinks.map((link) => (
-        <Link onClick={scrollToTop} to={link.url} className="lg:text-lg hover:font-bold">{link.name}</Link>
+        <Link onClick={scrollToTop} to={link.url} className="lg:text-lg font-shantell hover:font-bold">{link.name}</Link>
         ))}
         </div>
         </div>
@@ -32,11 +32,11 @@ const navlinks = [
         <div className="flex flex-row gap-3 items-center justify-center mt-9"> 
         <a href="https://x.com/Munashe8" className="bg-[#D4D4D4] p-2 rounded-full"><FaXTwitter size={22} color="#525252"/></a>
         <a href="https://github.com/munashex" className="bg-[#D4D4D4] p-2 rounded-full"><RiGithubLine size={22} color="#525252"/></a>
-        <a href="https://www.linkedin.com/in/munashe-madhuna-99676a210/" className="bg-[#D4D4D4] p-2 rounded-full"><IoLogoLinkedin size={22} color="#525252"/></a>
+        <a href="https://linkedin.com/in/munashe-madhuna-99676a210" className="bg-[#D4D4D4] p-2 rounded-full"><IoLogoLinkedin size={22} color="#525252"/></a>
         </div> 
 
 
-        <h1 className="mt-11 mb-2 text-center">Designed & Built by Munashe Mugonda</h1>
+        <h1 className="mt-11 mb-2 text-center font-shantell">Designed & Built by Munashe Mugonda</h1>
 
         </footer>
     )
