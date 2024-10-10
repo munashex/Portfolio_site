@@ -1,5 +1,6 @@
-import { MdArrowOutward } from "react-icons/md";
+
 import { Link } from "react-router-dom";
+import { CiLink } from "react-icons/ci";
 
 interface WorkProps {
   name: string;
@@ -37,7 +38,7 @@ const SelectedWork = ({ work }: { work: WorkProps }) => {
 
       <div className="absolute flex invisible lg:group-hover/item:animate-fade-right  lg:group-hover/item:visible justify-center items-center top-0 bottom-0 right-0 left-0">
         <span className="bg-[#151515] p-3 rounded-full">
-        <MdArrowOutward size={60} color="white"/> 
+        <CiLink size={60} color="white"/> 
         </span>
       </div>
     </Link>
