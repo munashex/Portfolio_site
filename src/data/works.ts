@@ -30,7 +30,7 @@ export const works = [
     url: "https://intellex-ten.vercel.app/",
     smallImage: intellexSmall,
     github: "https://github.com/munashex/Intellex",
-    stack: ['Typescript', 'ReactJs', 'Tailwind Css', 'Tavily API']
+    stack: ['Typescript', 'ReactJs', 'Tailwind Css', 'Tavily API', 'Firebase']
   },
   {
     name: "Medicia",
