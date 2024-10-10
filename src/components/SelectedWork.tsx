@@ -37,8 +37,8 @@ const SelectedWork = ({ work }: { work: WorkProps }) => {
       </div>
 
       <div className="absolute flex invisible lg:group-hover/item:animate-fade-right  lg:group-hover/item:visible justify-center items-center top-0 bottom-0 right-0 left-0">
-        <span className="bg-[#151515] p-3 rounded-full">
-        <CiLink size={60} color="white"/> 
+        <span className="bg-[#151515] p-3 rounded-full text-white hover:text-blue-800 hover:bg-blue-100">
+        <CiLink size={60}/> 
         </span>
       </div>
     </Link>
