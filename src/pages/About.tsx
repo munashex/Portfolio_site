@@ -4,7 +4,7 @@ import { IoLogoLinkedin } from "react-icons/io5";
 import { FaXTwitter } from "react-icons/fa6"; 
 import githubChart from '../images/gitChart.png'
 import Testimonals from "../components/Testimonials"; 
-import AnimatedTestimonials from "../components/animatedTestimonials";
+
 
 
 const About = () => {
@@ -61,13 +61,8 @@ const About = () => {
       </div>
 
 
-      {/* animated testimonials  section on lg screen*/}
-      <div className="mt-28 hidden lg:grid">
-        <AnimatedTestimonials/>
-        </div> 
 
-      {/* regular testimonals on sm & md sceens */} 
-      <div className="mt-20 lg:hidden">
+      <div className="mt-20 lg:mt-28">
       <Testimonals/>
        </div>
     </div>
