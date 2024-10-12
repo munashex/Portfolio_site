@@ -14,7 +14,11 @@ const Works = () => {
         </div> 
         <h1 className="font-shantell text-3xl text-center md:text-4xl lg:text-5xl font-bold">My Premier Works</h1>
         <h1 className="text-center text-lg md:text-xl lg:max-w-xl">Creating and building strong and stylish web applications for over ten years and still going strong.</h1>
-        <button className="bg-[#A8516E] scale-100 hover:scale-105 transition animate-ease-linear delay-150 duration-200 rounded-xl font-bold border py-2 px-6 text-white">Resume</button>
+        <a 
+        href="/munashe_mugonda_resume.pdf"
+        target="_blank" 
+        rel="noopener noreferrer" 
+         className="bg-[#A8516E] scale-100 hover:scale-105 transition animate-ease-linear delay-150 duration-200 rounded-xl font-bold border py-2 px-6 text-white">Resume</a>
         </div>
         
 

@@ -35,7 +35,11 @@ const navigateWorkTop = () => {
                   <button onClick={navigateWorkTop} className="border rounded-xl  border-black py-2 px-4  hover:bg-black hover:text-white scale-100 hover:scale-105 transition animate-ease-linear delay-300 duration-300">
                     Browse Works
                     </button>
-                  <button className="bg-[#A8516E] scale-100 hover:scale-105 transition animate-ease-linear delay-150 duration-200 rounded-xl font-bold border py-2 px-6 text-white">Resume</button>
+                  <a  
+                   href="/munashe_mugonda_resume.pdf"
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   className="bg-[#A8516E] scale-100 hover:scale-105 transition animate-ease-linear delay-150 duration-200 rounded-xl font-bold border py-2 px-6 text-white">Resume</a>
                   </div>
              </div>
 
