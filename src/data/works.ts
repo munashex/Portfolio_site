@@ -18,6 +18,9 @@ import flavorFiestaSmall from '../images/flavorFiestaSmall.png'
 import kobuSmall from '../images/kobuSmall.png' 
 import spotifySmall from '../images/spotifySmall.png' 
 import facebookSmall from '../images/facebbookSmall.png'
+import ariadeco from '../images/ariadeco.png'
+import arialdecoSmall from '../images/ariadecoSmall.png'
+
 export const works = [
   {
     name: "Intellex",
@@ -57,6 +60,20 @@ export const works = [
     github: "https://github.com/munashex/webcrunchysite",
     stack: ['Javascript', 'NextJs', 'Tailwind Css', 'Tailwind-Css-Animated']
   },
+  {
+   name: "Ariadeco", 
+   fronted: "Fronted End",
+   description: "Ariadeco specializes in custom event backdrops, photoshoot setups, and décor for all occasions",
+   description1: "Ariadeco is dedicated to creating unforgettable ambiance through beautifully crafted backdrops and décor for any event. Whether it’s a photoshoot, birthday, ceremonial occasion, or corporate gathering, Ariadeco offers bespoke designs tailored to elevate your space. From wooden arches and garland installations to dessert tables and snack setups, each project is designed to leave a lasting impression and set the perfect mood for every celebration",
+   description2: "With a keen eye for design and attention to detail, Ariadeco brings your vision to life with high-quality backdrops and décor that transform any setting. The company specializes in custom birthday backdrops, ceremonial décor, and ambient setups for photoshoots, combining modern aesthetics with timeless elegance. By creating personalized, picture-perfect designs, Ariadeco ensures every event is beautifully memorable, helping you celebrate in style and creating the ideal atmosphere for every moment.",
+   url: "https://aria-decor-one.vercel.app/",
+   smallImage: arialdecoSmall, 
+   github: "https://github.com/munashex/AriaDecor",
+   image: ariadeco, 
+   stack: ['Javascript', 'ReactJs', 'Tailwind Css', 'Tailwind-Css-Animated'],
+  
+  }
+  ,
   {
     fronted: "Front End",
     backend: "API",
