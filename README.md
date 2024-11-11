@@ -9,7 +9,7 @@ I specialize in developing responsive and user-friendly websites that look great
 ### Skills
 
 - **Front-end Technologies:** HTML, CSS, JavaScript, React, TypeScript, Next.js, Tailwind CSS
-- **Back-end Technologies:** Node.js, Express, Python, Django, APIs
+- **Back-end Technologies:** Node.js, Express, GraphQL
 - **Database Management:** MongoDB, Firebase
 - **Version Control:** Git, GitHub
 - **Other Tools:** REST APIs, GraphQL, Docker
