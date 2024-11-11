@@ -19,7 +19,7 @@ I specialize in developing responsive and user-friendly websites that look great
 Here are some highlights of my work:
 
 ### [Intellex](https://intellex-ten.vercel.app/)
-![Intellex](path-to-your-image)  
+![Intellex](https://raw.githubusercontent.com/munashex/Intellex/3121d14a6c294c0259f64cb8c07d055cd990f44c/Screenshot%202024-11-11%2013.42.04.png)  
 **Stack:** Typescript, ReactJs, Tailwind CSS, Tavily API, Firebase  
 **Description:** An AI search engine that provides insightful answers and encourages deeper exploration of topics.  
 **GitHub:** [View Code](https://github.com/munashex/Intellex)
