@@ -96,6 +96,15 @@ Here are some highlights of my work:
 **Description:** A project that displays Spotify playlists and favorites, providing a personalized music management experience.  
 **GitHub:** [View Code](https://github.com/munashex/Kobu)
 
+--- 
+
+### [AriaDecor](https://aria-decor-one.vercel.app/)
+![AriaDecor](https://github.com/munashex/AriaDecor/blob/main/public/Screenshot%202024-11-11%2014.31.28.png)  
+**Stack:** Typescript, ReactJs, Tailwind CSS 
+**Description:** Ariadeco specializes in custom event backdrops, photoshoot setups, and décor for all occasions.
+**GitHub:** [View Code](https://github.com/munashex/AriaDecor)
+
+
 ## Get in Touch
 
 I'm always open to new opportunities and collaborations! You can reach me through the following:
