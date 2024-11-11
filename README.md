@@ -103,6 +103,7 @@ Here are some highlights of my work:
 **Stack:** Typescript, ReactJs, Tailwind CSS 
 
 **Description:** Ariadeco specializes in custom event backdrops, photoshoot setups, and décor for all occasions.
+
 **GitHub:** [View Code](https://github.com/munashex/AriaDecor)
 
 
