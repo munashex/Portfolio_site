@@ -57,7 +57,7 @@ export const works = [
     description: "WebCrunchy specializes in websites, e-commerce, and apps.",
     description1: "WebCrunchy is dedicated to providing high-quality digital solutions that cater to diverse business needs. By focusing on the development of websites, e-commerce platforms, and mobile applications, WebCrunchy helps businesses establish a strong online presence. Each project is tailored to meet specific goals, ensuring effective user engagement and conversion.",
     description2: "With a commitment to innovation and user experience, WebCrunchy employs modern technologies to create visually appealing and functional websites. Their approach not only enhances brand visibility but also fosters growth through digital transformation, making it an essential partner for businesses in the digital age.",
-    url: "https://webcrunchy.co.za/",
+    url: "https://webcrunchysite.vercel.app/",
     smallImage: webcrunchySmall,
     github: "https://github.com/munashex/webcrunchysite",
     stack: ['Javascript', 'NextJs', 'Tailwind Css', 'Tailwind-Css-Animated']
@@ -71,7 +71,7 @@ export const works = [
     description2: "With a commitment to quality service, Near By Plumbers offers prompt responses and long-term solutions. Their approach combines technical expertise with transparent communication, building trust with clients and ensuring peace of mind for all plumbing-related concerns.",
     smallImage: nearbyplumbers, 
     github: "https://github.com/munashex/EdiziPlumbing", 
-    url: "https://www.nearbyplumbers.co.uk/", 
+    url: "https://edizi-plumbing.vercel.app/", 
     stack: ['Javascript', 'Tailwind Css', 'Tailwind-Css-Animated']
   },
   {
