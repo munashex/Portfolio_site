@@ -21,7 +21,7 @@ import spotifySmall from '../images/spotifySmall.png'
 import facebookSmall from '../images/facebbookSmall.png'
 import ariadeco from '../images/ariadeco.png'
 import arialdecoSmall from '../images/ariadecoSmall.png'
-
+import glade from '../images/glade.png'
 
 export const works = [
   {
@@ -63,18 +63,6 @@ export const works = [
     stack: ['Javascript', 'NextJs', 'Tailwind Css', 'Tailwind-Css-Animated']
   },
   {
-    name: "Near By Plumbers", 
-    fronted: "Front End", 
-    image: nearbyplumbers, 
-    description: "Near By Plumbers provides comprehensive plumbing solutions for homes and businesses.",
-    description1: "Near By Plumbers delivers expert plumbing services with a focus on reliability and customer satisfaction. Specializing in emergency repairs, installations, and maintenance, the company ensures that all plumbing needs are met with professional efficiency. Their team of certified plumbers is equipped to handle everything from leaky faucets to complex pipe systems.",
-    description2: "With a commitment to quality service, Near By Plumbers offers prompt responses and long-term solutions. Their approach combines technical expertise with transparent communication, building trust with clients and ensuring peace of mind for all plumbing-related concerns.",
-    smallImage: nearbyplumbers, 
-    github: "https://github.com/munashex/EdiziPlumbing", 
-    url: "https://edizi-plumbing.vercel.app/", 
-    stack: ['Javascript', 'Tailwind Css', 'Tailwind-Css-Animated']
-  },
-  {
     name: "Ariadeco", 
     fronted: "Fronted End",
     description: "Ariadeco specializes in custom event backdrops, photoshoot setups, and décor for all occasions",
@@ -85,6 +73,30 @@ export const works = [
     github: "https://github.com/munashex/AriaDecor",
     image: ariadeco, 
     stack: ['Javascript', 'ReactJs', 'Tailwind Css', 'Tailwind-Css-Animated'],
+  },
+  {
+    name: "Glade",
+    fronted: "Front End", 
+    image: glade, 
+    description: "Glade transforms tired gardens into beautiful outdoor spaces for family enjoyment.",
+    description1: "Glade specializes in garden transformations, turning overgrown or tired spaces into gorgeous, functional areas tailored to clients' styles and needs. As garden transformation specialists, the company offers comprehensive services including garden makeovers, decking construction, patios & paving, planting designs, raised beds, and fencing solutions. Each service is designed to create dream gardens that families can enjoy for years to come.",
+    description2: "With years of experience and numerous completed projects, Glade combines expert craftsmanship with attention to detail. The platform showcases their transformation process, service offerings, and completed work, helping clients visualize their ideal outdoor space. The website effectively communicates Glade's commitment to quality and customer satisfaction in garden landscaping.",
+    smallImage: glade, 
+    github: "https://github.com/munashex/Glade", 
+    url: "https://glade-eight.vercel.app/", 
+    stack: ['Typescript', 'Tailwind Css', 'Tailwind-Css-Animated']
+  },
+  {
+    name: "Near By Plumbers", 
+    fronted: "Front End", 
+    image: nearbyplumbers, 
+    description: "Near By Plumbers provides comprehensive plumbing solutions for homes and businesses.",
+    description1: "Near By Plumbers delivers expert plumbing services with a focus on reliability and customer satisfaction. Specializing in emergency repairs, installations, and maintenance, the company ensures that all plumbing needs are met with professional efficiency. Their team of certified plumbers is equipped to handle everything from leaky faucets to complex pipe systems.",
+    description2: "With a commitment to quality service, Near By Plumbers offers prompt responses and long-term solutions. Their approach combines technical expertise with transparent communication, building trust with clients and ensuring peace of mind for all plumbing-related concerns.",
+    smallImage: nearbyplumbers, 
+    github: "https://github.com/munashex/EdiziPlumbing", 
+    url: "https://edizi-plumbing.vercel.app/", 
+    stack: ['Javascript', 'Tailwind Css', 'Tailwind-Css-Animated']
   },
   {
     fronted: "Front End",
