@@ -21,7 +21,8 @@ import spotifySmall from '../images/spotifySmall.png'
 import facebookSmall from '../images/facebbookSmall.png'
 import ariadeco from '../images/ariadeco.png'
 import arialdecoSmall from '../images/ariadecoSmall.png'
-import glade from '../images/glade.png'
+import glade from '../images/glade.png' 
+import serenity from '../images/serenity.png'
 
 export const works = [
   {
@@ -73,6 +74,18 @@ export const works = [
     github: "https://github.com/munashex/AriaDecor",
     image: ariadeco, 
     stack: ['Javascript', 'ReactJs', 'Tailwind Css', 'Tailwind-Css-Animated'],
+  },
+  {
+    name: "Serenity Minds", 
+    fronted: "Front End",
+    image: serenity,
+    description: "Serenity Minds is a mental health counselling website designed to provide a comforting online space for therapy and psychological support.",
+    description1: "Serenity Minds serves as a digital sanctuary for individuals seeking mental health care, therapy, and emotional well-being. The platform is ideal for psychotherapy clinics, hospitals, therapy centers, and independent counsellors aiming to connect with clients in a calm and professional environment. Through thoughtful design and gentle aesthetics, Serenity Minds creates a sense of peace that encourages users to begin their healing journey online.",
+    description2: "Built with accessibility and empathy in mind, Serenity Minds combines modern design principles with user-focused functionality. Visitors can easily explore therapy services, read about mental health topics, and book counselling sessions directly through the website. Its layout emphasizes clarity and emotional comfort, ensuring that users feel safe, understood, and supported as they take steps toward better mental health.",
+    url: "https://serenity-kappa-five.vercel.app/",
+    smallImage: serenity,
+    github: "https://github.com/munashex/serenity",
+    stack: ['Typescript', 'ReactJs', 'Tailwind Css', 'Tailwind-Css-Animated']
   },
   {
     name: "Glade",
