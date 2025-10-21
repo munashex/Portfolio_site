@@ -52,18 +52,6 @@ export const works = [
     stack: ['Typescript', 'ReactJs', 'Tailwind Css', 'Tailwind-Css-Animated']
   },
   {
-    name: "Webcrunchy",
-    fronted: "Front End",
-    image: webcrunchy,
-    description: "WebCrunchy specializes in websites, e-commerce, and apps.",
-    description1: "WebCrunchy is dedicated to providing high-quality digital solutions that cater to diverse business needs. By focusing on the development of websites, e-commerce platforms, and mobile applications, WebCrunchy helps businesses establish a strong online presence. Each project is tailored to meet specific goals, ensuring effective user engagement and conversion.",
-    description2: "With a commitment to innovation and user experience, WebCrunchy employs modern technologies to create visually appealing and functional websites. Their approach not only enhances brand visibility but also fosters growth through digital transformation, making it an essential partner for businesses in the digital age.",
-    url: "https://webcrunchysite.vercel.app/",
-    smallImage: webcrunchySmall,
-    github: "https://github.com/munashex/webcrunchysite",
-    stack: ['Javascript', 'NextJs', 'Tailwind Css', 'Tailwind-Css-Animated']
-  },
-  {
     name: "Ariadeco", 
     fronted: "Fronted End",
     description: "Ariadeco specializes in custom event backdrops, photoshoot setups, and décor for all occasions",
