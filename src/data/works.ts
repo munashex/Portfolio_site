@@ -23,8 +23,23 @@ import ariadeco from '../images/ariadeco.png'
 import arialdecoSmall from '../images/ariadecoSmall.png'
 import glade from '../images/glade.png' 
 import serenity from '../images/serenity.png'
+import kgabo from '../images/kgabo.png'
 
 export const works = [
+
+  {
+    name: "Kgabo Mokgatla Group",
+    fronted: "Front End",
+    backend: "SEO Optimized",
+    image: kgabo,
+    description: "Kgabo Mokgatla Group is a 100% black-owned South African mining company website.",
+    description1: "Kgabo Mokgatla Group's website showcases their expertise in mineral exploration, project development, and technical advisory services across South Africa. The platform presents their active mining operations including BenK Colliery and Rooipoort Colliery, along with their Chrome Wash Plant. With a comprehensive exploration portfolio spanning 9,237 hectares across five provinces (Mpumalanga, Gauteng, North West, Limpopo, and Northern Cape), the website effectively communicates their strategic position in South Africa's mining industry.",
+    description2: "Built with modern web technologies and optimized for search engines, the website features detailed information about their commodity focus including coal, chrome, iron ore, limestone, platinum, and manganese. The platform includes comprehensive sections for operations, exploration projects, team profiles of leadership including Chairman Molefe H. Ratsela and CEO Reolebogile H. Phenya, and contact information. The website is fully responsive, SEO-optimized with structured data, and designed to attract investors, partners, and clients in the mining industry.",
+    url: "https://kgmgroup.co.za",
+    smallImage: kgabo,
+    github: "https://github.com/munashex/kgabo-mokgatla-group",
+    stack: ['JavaScript', 'ReactJs', 'Tailwind Css', 'Vite', 'React Router']
+  },  
   {
     name: "Intellex",
     fronted: "Front End",
