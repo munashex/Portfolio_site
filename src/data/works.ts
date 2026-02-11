@@ -37,7 +37,7 @@ export const works = [
     description2: "Built with modern web technologies and optimized for search engines, the website features detailed information about their commodity focus including coal, chrome, iron ore, limestone, platinum, and manganese. The platform includes comprehensive sections for operations, exploration projects, team profiles of leadership including Chairman Molefe H. Ratsela and CEO Reolebogile H. Phenya, and contact information. The website is fully responsive, SEO-optimized with structured data, and designed to attract investors, partners, and clients in the mining industry.",
     url: "https://kgmgroup.co.za",
     smallImage: kgabo,
-    github: "https://github.com/munashex/kgabo-mokgatla-group",
+    github: "https://github.com/munashex/Portfolio_site",
     stack: ['JavaScript', 'ReactJs', 'Tailwind Css', 'Vite', 'React Router']
   },  
   {
