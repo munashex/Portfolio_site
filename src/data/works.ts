@@ -24,9 +24,22 @@ import arialdecoSmall from '../images/ariadecoSmall.png'
 import glade from '../images/glade.png' 
 import serenity from '../images/serenity.png'
 import kgabo from '../images/kgabo.png'
+import gemad from '../images/gemad.jpeg'
 
 export const works = [
-
+  {
+    name: "GEMAD - Geological Evaluation & Mineral Assets Development",
+    fronted: "Front End",
+    backend: "SEO Optimized",
+    image: gemad,
+    description: "GEMAD is a South African mineral asset development entity focused on identifying, evaluating, and advancing high-potential mineral projects into economically viable mining operations.",
+    description1: "GEMAD (Geological Evaluation and Mineral Assets Development) is a comprehensive website for a South African mining company specializing in mineral exploration, resource modelling, project development, and technical advisory services. The website showcases GEMAD's expertise across critical minerals, rare earth elements, coal, and base metals, with detailed sections for geological evaluation, resource estimation, mineral asset development, and project advisory services.",
+    description2: "Built with modern web technologies and fully SEO-optimized, the website features a dynamic hero section with letter-by-letter animations, smooth crossfading slideshow, and scroll-triggered reveals. The platform includes comprehensive pages for services (with image galleries for field exploration, 3D geological modelling, and mine planning), commodities portfolio, ESG commitment, team organogram with connectors, and contact information with Google Maps integration. The website is fully responsive, features advanced Framer Motion animations, JSON-LD structured data for rich search results, and is designed to attract investors, mining partners, and stakeholders in the mineral development sector.",
+    url: "https://gemad2.vercel.app",
+    smallImage: gemad,
+    github: "https://github.com/munashex/gemad2",
+    stack: ['JavaScript', 'ReactJs', 'Tailwind Css', 'Framer Motion', 'Vite', 'React Router', 'React Icons']
+  },
   {
     name: "Kgabo Mokgatla Group",
     fronted: "Front End",
@@ -96,7 +109,7 @@ export const works = [
     image: serenity,
     description: "Serenity Minds is a mental health counselling website designed to provide a comforting online space for therapy and psychological support.",
     description1: "Serenity Minds serves as a digital sanctuary for individuals seeking mental health care, therapy, and emotional well-being. The platform is ideal for psychotherapy clinics, hospitals, therapy centers, and independent counsellors aiming to connect with clients in a calm and professional environment. Through thoughtful design and gentle aesthetics, Serenity Minds creates a sense of peace that encourages users to begin their healing journey online.",
-    description2: "Built with accessibility and empathy in mind, Serenity Minds combines modern design principles with user-focused functionality. Visitors can easily explore therapy services, read about mental health topics, and book counselling sessions directly through the website. Its layout emphasizes clarity and emotional comfort, ensuring that users feel safe, understood, and supported as they take steps toward better mental health.",
+    description2: "Built with accessibility and empathy in mind, Serenity Minds combines modern design principles with user-focused functionality. Visitors can easily explore therapy services, read about mental health topics, and book counselling sessions directly through the website. Its layout emphasizes clarity and emotional comfort, ensuring that users feel safe, understood, and supported as they step toward better mental health.",
     url: "https://serenity-kappa-five.vercel.app/",
     smallImage: serenity,
     github: "https://github.com/munashex/serenity",
